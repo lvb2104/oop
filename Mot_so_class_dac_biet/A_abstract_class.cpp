@@ -64,7 +64,7 @@ public:
 
 int main()
 {
-    Vehicle *vehicleList[3]; // Khai con tro kieu Vehicle, khong khai bao object Vehicle vi day la abstract class -> khong the khoi tao
+    Vehicle *vehicleList[3]; // Khai con tro kieu Vehicle, khong khai bao object Vehicle vi day la abstract class -> khong the khoi tao (vi la ao? ma sao create duoc kkk)
     vehicleList[0] = new Car();
     vehicleList[1] = new Motorbike();
     vehicleList[2] = new Truck();
